@@ -2,13 +2,19 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/*=============Navbar Styles start===========*/
+}
 
+/*=============Navbar Styles start===========*/
+.nav{
+    color: white!important;
+}
 .navbar-header img{
-    width: 70px;
+    width: 75px;
+    background: white!important;
+    padding: 3px;
 }
 .navbar {
-    background: greenyellow!important;
+    background: blue!important;
 }
 .navbar button{
     border: none!important;
@@ -24,38 +30,72 @@
 }
 .navbar-inverse .navbar-collapse{
     border-color: transparent !important;
+
  }
+ @media(max-width: 768px){
+
+ .navbar .navbar-nav {
+    text-align: center!important;
+    display: flex;
+    justify-content: center;
+    float: none;
+    align-items: center;
+    margin-right: 60px;
+    left: -100px ;
+    padding-bottom: 70px;
+ }
+  }
+
  .navbar .navbar-nav{
-     margin-left: 50px;
+     margin-left: px;
      padding-top: 3px;
      display: block;
-     float: left;
+     float: right;
+     padding-right: 50px;
  }
  .navbar-nav li a{
-     color: black!important;
-     text-transform: uppercase;
+     color: white!important;
      font-weight: bold;
-     font-size: 15px;
+     font-size: 17px;
      text-decoration: none!important;
      display: block;
-     float: left;
+     float: 
      
  }
  
  
  .navbar-nav li a:hover{
-     background: tomato!important;
-     transition: all ease-in 0.8s;
+     background: white!important;
+     transition: all ease-in 0.4s;
+     color: blue!important;
  }
+.search .fa-search{
+    font-size: 20px;
+    font-weight: bold;
+    color: white!important;
+}
+@media(min-width: 769px){
+    .search input{
+        margin-left: -820px;
+    }
+    .search .fa-search{
+        margin-left: 0;
+    }
+}
+@media( max-width: 768px){
+    .search input{
+        margin-left: -340px;
+    }
+    .search .fa-search{ margin-left: 0px; }
 
+}
  .dropdown .dropbtn {
     background-color:transparent!important;
-    color:black;
+    color:white!important;
     padding: 2px;
     border:none;
-    text-transform: uppercase;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 17px;
     padding-top: 14px;
         }
         .dropdown {
@@ -76,29 +116,34 @@
 
         .dropdown-content a {
             float: none;
-            color: black;
+            color: blue!important;
             padding: 12px 16px;
             text-decoration: none!important;
             display: block;
+            font-size: 15px;
 
         }
         .dropdown-content a:hover{
             background-color: #ddd;
             text-transform: uppercase;
             transform: scale(1.1);
-            color: black;
-            font-size: 12px;
+            color: black!important;
+            font-size: 15px;
             font-weight: bold;
+
         }
         .dropdown:hover .dropdown-content{
             display: block;
         }
 
         .dropdown:hover{
-            background-color: tomato;
-            transition: all ease-in 0.6s;
+            background-color: !important;
+            transition: all ease-in 0.4s;
+            color: blue!important;
+            
         }
-       .dropdown .dropbtn:hover{background-color: tomato;
+       .dropdown .dropbtn:hover{background-color: white!important;
+        color: blue!important;
         }
 
         .departmental{
@@ -129,16 +174,17 @@
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     letter-spacing: 1px;
+    color: blue;
 
 }
 .item button{
     width: 150px;
     height: 50px;
-    background-color: greenyellow;
-    color: black;
+    background-color: blue;
+    color: white;
     font-size: 15px;
     font-weight: bold;
     margin-right:100px;
@@ -146,6 +192,7 @@
     border: none;
     position: relative;
     margin-top: -90px;
+    text-transform: capitalize;
     
     
 }
@@ -158,12 +205,13 @@
     margin-top: 20px;
 }
 ol.carousel-indicators .active{
-    background-color: tomato!important;
+    background-color: blue!important;
     background-clip: border-box;
 }
 ol.carousel-indicators{
     margin-left: 10px;
     margin-bottom: -50px;
+
 }
 
 /*=============Navbar Styles End===========*/
@@ -171,8 +219,8 @@ ol.carousel-indicators{
 /*=============About Styles Start===========*/
 
 .about{
-    background: rgba(186, 186, 226, 0.6);
-    padding: 50px 0px;
+    margin-top: -30px;
+   
 }
 
 .about-body a:before,
@@ -180,12 +228,13 @@ ol.carousel-indicators{
 {
     content: "View Less";
     position: absolute;
-    left: 5px;
-    color: tomato!important;
+    left: 18px ;
+    color: white!important;
     text-decoration: underline;
     transition: all ease-in 0.6s;
     margin-bottom: 15px;
     font-weight: bold;
+    font-size: 17px;
 }
 .about-body a.collapsed:before{
     content: "Learn more";
@@ -202,25 +251,36 @@ ol.carousel-indicators{
     margin-top: 30px;
     height: 250px;
     width: 100%;
+    margin-right: 10px;
     
 }
 .about-title{
-    color: tomato;
+    color: ;
     font-size: 25px;
     font-weight: bold;
 }
 .red1{
     font-weight: bold;
-    color: tomato;
-    font-size: 17px;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 15px;
 }
-@media (min-width: 768px){
+
+@media (min-width: 769px){
     .about-body p{
         font-size: 17px;
         line-height: normal;
         padding-top: 5px;
         letter-spacing: 0.2px;
         
+        
+     }
+     .about img{
+        width: 90%;
+        padding-left: px;
+     }
+     .img-sm{
+        width: 60%;
      }
      .about-body {
         padding-top: 30px;
@@ -233,22 +293,32 @@ ol.carousel-indicators{
      }
 
 
+
+
 @media (max-width: 768px){
     .about-body p{
-        font-size: 12px;
-        line-height: normal;
+        font-size: 16px;
         padding-top: 15px;
+        
         
      }
      .about-body {
-       padding-top: 30px;
+       padding-top: 15px;
+
         
      }
      .red1{
-         font-size: 15px;
+         font-size: 18px;
      }
      .text1{
          padding: 50px;
+         color: blue;
+     }
+     .text1 p{
+        color: blue;
+     }
+     .blue2{
+        color: blue;
      }
      .final-text{
          font-size: 16px;
@@ -256,13 +326,66 @@ ol.carousel-indicators{
      .checkbox a{
         margin-left: 100px;
 }
+.img-nodisplay{
+    display: none;
  }
+}
+
+.about-body .first-white{
+    color: white;
+}
+ .about-body .first-blue{
+    color: black!important;
+}
+.first-blue .red1{
+    color: black;
+}
+
+.first-blue {
+    padding-left:30px;
+    color: black!important;
+
+}
+
 
 .green-bg{
-    background: greenyellow;
-    padding: 50px;
+    background-image: url('../images/curvep.png');
+    padding:50px ;
+    padding-top: 60px;
+    background-size: cover;
+    background-position: center;
+    width: 100% ;
+    height: 100%;
+    background-repeat: no-repeat;
+   
+}
+
+
+@media(min-width: 769px){
+.green-bg{
+    background-image: url('../images/curvep.png');
+    padding-top: 200px;
+    background-size: cover;
+    width: 100% ;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+.green-bg{
+    height: 700px;
+  }
+
+ .about-body .first-blue {
+    padding-left:30px;
+    color: black!important;
+    font-size: 19px;
+    padding-right: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 60px;
     
 }
+
+    }
 /*=============About Styles End===========*/
 
 /*=============Footer Styles Start===========*/
@@ -270,22 +393,189 @@ ol.carousel-indicators{
     font-size: 25px;
     padding-top: 40px;
     font-weight: bold;
+    color: blue;
+}
+
+.pre-footer ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.pre-footer ul li {
+    list-style: none;
+    color: white;
+}
+.pre-footer{
+    
+    background: radial-gradient(circle, rgba(20, 10, 250, 0.3),rgba(10,50, 250, 0.4)) ;
+    background-size: cover;
+    width: px;
+    font-size: 17px;
+    margin-top: 60px;
 }
 .footer-part{
-    background: greenyellow;
+    background: linear-gradient( rgba(100, 10, 210, 0.3) ,#263CFF 210% );
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 60px;
     width: 100%;
-    margin: 0;
+    margin-top: px;
     overflow-x: hidden;
 }
 .footer-text{
-    padding-top: 150px;
+    padding-top: 20px;
     padding-left: 10px;
+    color: white;
 }
+
+
+/*=============Social Media===========*/
+
+#social_media{
+    float: right;
+}
+
+.fa {
+    /* display: flex; */
+    /* padding: 15px; */
+    /* font-size: 100px; */
+    width: 20px;
+    /* text-align: center; */
+    text-decoration: none;
+    /* margin: 5px 2px; */
+    margin-right: 7px;
+    border-radius: 50%;
+    color: white;
+
+
+    
+}
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+/* .fa-facebook {
+    background: #3B5998;
+    color: white;
+  } */
+
+  /* .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  } */
+ 
+    
+  .fa-instagram {
+    color: white;
+  }
 /*=============Footer Styles End===========*/
+
+/*=============Work Styles Start===========*/
+
+.work{
+    background: white;
+    padding-top: 90px;
+    margin-top: -20px;
+
+}
+
+.work h4{
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+}
+.work p{
+    font-size: 15px;
+    color: black;
+}
+.work .num-plate{
+    background: blue;
+    padding: 10px;
+    padding-right: px;
+    padding-left: px;
+    color: white;
+    font-weight: bold;
+    width: 60px;
+    height:20 px;
+     margin-left: 45px;
+    font-size: 30px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.work .white-bg{
+    background: #E5E5E5;
+    border: 2px gray solid;
+    border-radius: 2px;
+    padding: 15px;
+}
+.work a{
+    color: white;
+    font-weight: bold;
+    background: blue;
+    padding: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    width: 200px;
+    font-size: 30;
+    margin-bottom: 10px;
+
+}
+.work .slide1 .num-plate{
+    transform: rotate(330deg);
+}
+.work .slide3 .num-plate{
+    transform: rotate(30deg);
+}
+
+.work .slide1 {
+  margin-top: 24px;
+}
+
+.work .slide3 {
+  margin-top: 24px;
+}
+
+@media(min-width: 769px){
+    .work{
+        margin-top: -20px;
+        font-size: 19px;
+    }
+    .work h4{
+        padding-bottom: 10px;
+        font-size: 35px;
+    }
+    .work p{
+        padding-bottom: 50px;
+        font-size: 19px;
+    }
+    .work .num-plate{
+        margin-left: 140px;
+    }
+    .work a{
+        margin-left: 48px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background: ;
+        width: 60%;
+        height: 40%;
+    }
+    .work .slide1 {
+  margin-top: 30px;
+}
+
+.work .slide3 {
+  margin-top: 30px;
+}
+
+}
+
+/*=============Work Styles End===========*/
+
 
 
 /*=============Payment Pages Styles Start===========*/
