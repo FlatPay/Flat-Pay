@@ -2,7 +2,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-}
+
 
 /*=============Navbar Styles start===========*/
 .nav{
@@ -15,6 +15,7 @@
 }
 .navbar {
     background: blue!important;
+    height: ;
 }
 .navbar button{
     border: none!important;
@@ -29,7 +30,8 @@
     
 }
 .navbar-inverse .navbar-collapse{
-    border-color: transparent !important;
+    border-color: white!important;
+    
 
  }
  @media(max-width: 768px){
@@ -41,9 +43,11 @@
     float: none;
     align-items: center;
     margin-right: 60px;
-    left: -100px ;
+    left: -55px ;
     padding-bottom: 70px;
+    
  }
+ 
   }
 
  .navbar .navbar-nav{
@@ -59,7 +63,7 @@
      font-size: 17px;
      text-decoration: none!important;
      display: block;
-     float: 
+     float: ;
      
  }
  
@@ -76,17 +80,26 @@
 }
 @media(min-width: 769px){
     .search input{
-        margin-left: -820px;
+        margin:0 auto;
+    }
+    .search{
+        margin-left: 15px;
+            margin-right: -32px;
+            
     }
     .search .fa-search{
-        margin-left: 0;
+        
+        margin-top: 4px;
     }
 }
 @media( max-width: 768px){
-    .search input{
-        margin-left: -340px;
+    .search{
+        display: none;
     }
-    .search .fa-search{ margin-left: 0px; }
+   /* .search input{
+        margin: 0 auto;
+    }
+    .search .fa-search{ margin-left: 0px; }*/
 
 }
  .dropdown .dropbtn {
@@ -151,13 +164,8 @@
         }
        
 
- .search{
-     float: right;
-     margin-top: 12px;
-     margin-right: -32px;
-     position: inherit;
-     
- }
+
+ 
  .carousel-section{
      background: linear-gradient(rgba(186, 186, 226, 0.8),rgba(196, 171, 171, 0.9) ), url("../images/1.jpg");
      background-position: center;
@@ -173,7 +181,7 @@
     text-align: left;
     display: inline-block;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 25px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -219,7 +227,7 @@ ol.carousel-indicators{
 /*=============About Styles Start===========*/
 
 .about{
-    margin-top: -30px;
+    margin-top: -60px;
    
 }
 
@@ -248,8 +256,8 @@ ol.carousel-indicators{
     text-decoration: none;
 }
 .about img{
-    margin-top: 30px;
-    height: 250px;
+    margin-top: 40px;
+    height: 260px;
     width: 100%;
     margin-right: 10px;
     
@@ -476,7 +484,7 @@ ol.carousel-indicators{
 
 .work{
     background: white;
-    padding-top: 90px;
+    padding-top: 80px;
     margin-top: -20px;
 
 }
@@ -487,19 +495,19 @@ ol.carousel-indicators{
     font-size: 25px;
 }
 .work p{
-    font-size: 15px;
+    font-size: 16px;
     color: black;
 }
 .work .num-plate{
     background: blue;
     padding: 10px;
-    padding-right: px;
+    padding-right: ;
     padding-left: px;
     color: white;
     font-weight: bold;
     width: 60px;
     height:20 px;
-     margin-left: 45px;
+     margin-left: 35px;
     font-size: 30px;
      display: flex;
     justify-content: center;
@@ -511,6 +519,7 @@ ol.carousel-indicators{
     border: 2px gray solid;
     border-radius: 2px;
     padding: 15px;
+    width: ;
 }
 .work a{
     color: white;
@@ -518,11 +527,22 @@ ol.carousel-indicators{
     background: blue;
     padding: 30px;
     margin-top: 20px;
-    text-decoration: none;
+    text-decoration: none!important;
     width: 200px;
     font-size: 30;
     margin-bottom: 10px;
+    margin-left: -10px;
 
+}
+.work a:hover{
+    color: blue;
+    font-weight: bolder;
+    background: transparent;
+    border: blue solid 2px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    font-size: 17px;
+   
 }
 .work .slide1 .num-plate{
     transform: rotate(330deg);
@@ -532,11 +552,11 @@ ol.carousel-indicators{
 }
 
 .work .slide1 {
-  margin-top: 24px;
+  margin-top: 27px;
 }
 
 .work .slide3 {
-  margin-top: 24px;
+  margin-top: 27px;
 }
 
 @media(min-width: 769px){
@@ -553,7 +573,7 @@ ol.carousel-indicators{
         font-size: 19px;
     }
     .work .num-plate{
-        margin-left: 140px;
+        margin-left: 120px;
     }
     .work a{
         margin-left: 48px;
@@ -565,14 +585,15 @@ ol.carousel-indicators{
         height: 40%;
     }
     .work .slide1 {
-  margin-top: 30px;
+  margin-top: 33px;
 }
 
 .work .slide3 {
-  margin-top: 30px;
+  margin-top: 33px;
 }
 
 }
+
 
 /*=============Work Styles End===========*/
 
