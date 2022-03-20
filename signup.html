@@ -12,6 +12,7 @@
 
     <link href="css/styles.css" rel="stylesheet">
     <link href="images/flatpay logo.png" rel="shortcut icon">
+    <link href="css/responsive.css" rel="stylesheet">
    
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -43,7 +44,7 @@
 </div>
  
 <div class="collapse navbar-collapse " id="nav1">
-  <ul class="nav navbar navbar-nav navbar-center" >
+  <ul class="nav navbar navbar-nav nav0 navbar-center" >
       <li><a href="Index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
      
@@ -71,7 +72,7 @@
   </ul>
 
 
-  <span class="search">
+ <!------- <span class="search">
       <form>
   <input type="text" placeholder="Search FlatPay" name="search">
   <button type="button">
@@ -79,7 +80,7 @@
   </button>
 
 </form>
-</span>
+</span> --->
 
 </div>
 </div>
@@ -88,15 +89,29 @@
 <!--------------------------------------Navbar Setion Ends----------------------->
 
 
-
-
-    <section class="departmental text-center">
-        <h4>SIGN UP</h4>
-    </section>
+<section class=" text-center departmental">
+<div class="container-fluid ">
+  <div class="row">
+      <div class="col-md-3 col-sm-3 col-xs-5 col-lg-2 left-tab"> 
+          <ul>
+           <li><a href="signup.html" class="i-4">Sign Up<i class="fa fa-arrow-right i1"></i></a></li><br>
+           <li><a href="linkaccount.html" class="i-2" >Link account<i class="fa fa-arrow-right i2"></i></a></li><br>
+           <li><a href="#" class="i-3">Dashboard<i class="fa fa-arrow-right i3"></i></a></li><br>
+           <li><a href="about.html" class="i-1">About<i class="fa fa-arrow-right i4"> </i></a></li><br>
+           <li><a href="faq.html" class="i-5">FAQ<i class="fa fa-arrow-right i5"></i></a></li><br>
+          </ul>
+      </div>
+  
+     
+    
+        <h4>Sign Up</h4>
+   
 
     <br><br>
-    <div class="container">
-<form action="/action_page.php">
+
+
+    <div class="col-md-5 col-lg-5 col-sm-7 col-md-offset-2 col-lg-offset-2 col-xs-7">
+<form action=" ">
     <div class="form-group">
       <input type="text" placeholder="Full Name" class="form-control" id="name">
     </div>
@@ -110,12 +125,23 @@
       </div>
 
       <div class="form-group">
+        <input type="text" placeholder="Registration Number"  class="form-control" id="register-number">
+      </div>
+
+      <div class="form-group">
+        <input type="text" placeholder="Department"  class="form-control" id="department">
+      </div>
+
+      <div class="form-group">
         <input type="password" placeholder="Password" class="form-control" id="pwd">
       </div>
 
       <div class="form-group">
         <input type="password" placeholder="Re-enter Password" class="form-control" id="email">
       </div>
+
+      <p class="text-center">
+        <input type="checkbox"  id="remember">I agree to <a href="TC.html">terms and conditions.</a></p>
    
       <br><br><br><br>
       <div class="buttons-form">
@@ -124,8 +150,14 @@
      
     </div>
   </form>
+
+  <p>Already have an account? <a href="login.html">Log in</a></p>
+
+</div>
 </div>
 
-
+</div>
+</div>
+</section>
 </body>
 </html>

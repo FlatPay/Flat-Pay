@@ -1,0 +1,217 @@
+
+@media (max-width:993px){
+    .img-nodisplay>img{
+        display: none;
+     }
+}
+@media (min-width:993px){
+    .about-body .first-white{
+        padding-top: 60px;
+     }
+}
+
+@media(max-width:425px){
+.about-body .first-white p{
+    font-size: 17px;
+}
+}
+
+@media screen and (max-width:362px){
+   .work a.pay2{
+       display: none;
+    }
+    }
+ @media screen and (min-width:363px){
+        .work a.pay1{
+            display: none;
+            
+         }
+         }
+
+@media (max-width:442px){
+  .left-tab .fa-arrow-right{
+        display: none;
+         
+    }
+    .left-tab ul li a.i-1{
+        padding-right: 25px;
+    }
+    .left-tab ul li a.i-2{
+        padding-right: 5px;
+    }
+    .left-tab ul li a.i-3{
+        padding-right: 10px;
+    }
+    .left-tab ul li a.i-4{
+        padding-right: 40px;
+    }
+    .left-tab ul li a.i-5{
+        padding-right: 53px;
+    }
+
+}
+
+@media (max-width:377px){
+.navbar .navbar-brand{
+ margin-top: -45px;
+    } 
+}
+@media only screen and (min-device-width:767px) and (max-device-width:992px){
+   .navbar .nav0{
+        margin-top: -50px;
+      
+    }
+ }
+    @media only screen and (min-device-width:600px) and (max-device-width:991px){
+        .left-tab i.fa {
+            margin-left: px;
+        }
+    
+}
+@media screen and (min-device-width:768px){
+    .about-us img{width:280px;
+    height: 280px;
+    float: left;
+ }
+ .about-us{
+     padding-top: 60px;
+ }
+ 
+ .about1 img{
+     display: none;
+ }
+ .row .left-tab1 {
+     height: 480px;
+ }
+ .about1 .values {
+     margin-top: -70px;
+ }
+}
+@media screen and (max-width:768px){
+    .row .left-tab1{
+        height: 800px;
+    }
+}
+@media screen and (max-width:560px){
+    .topp .left-icons i.fa{
+         font-size: 30px;
+         margin-left: -30px;
+         display: flex;
+         justify-content: left!important;
+         align-items: ;
+         }
+         
+    .topp .left-icons i.material-icons{
+         font-size: 30px;
+         margin-left: -30px;
+         display: flex;
+         align-items: flex-start;
+         justify-content: left!important;
+     }
+     .left-icons p{
+         margin-left:-40px ;
+         font: 15px;
+}
+
+.left-icons a p.p1{
+    margin-left:-55px ;
+    font: 15px;
+ }
+    .dropright a.i-6{
+        background-color: lime;
+        color: black;
+        margin-left:-45px;
+        
+        padding-left:px;
+        width:px ;
+    
+    } 
+  .topp .dropright .btn-secondary .i-6 {
+        margin-left: px;
+        padding-right: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center!important;
+    }
+    .topp .dropright i.material-icons{
+        margin-left: -50px;
+        padding-left:48px; 
+        display: flex;
+        justify-content: center!important;
+    }
+    .topp .dropright p{
+        margin-left: 5px;
+    }
+    
+ }
+
+ @media only screen and (min-width:679px) and (max-width:822px){
+    .left-icons i.fa-calendar{
+        margin-left: -20px;
+    }
+    .left-icons i.fa-bell{
+       margin-left: -45px;
+   }
+   .left-icons a p.p1{
+    margin-left: -12px;
+}
+ }
+ @media only screen and (min-width:550px) and (max-width:679px) {
+    .left-icons i.fa-calendar{
+        margin-left: -20px;
+    }
+    .left-icons i.fa-bell{
+       margin-left: -45px;
+   }
+ }
+ 
+ @media only screen and (min-width:823px) and (max-width:943px) {
+    .left-icons i.fa-calendar{
+        margin-left: -110px;
+    }
+    .left-icons i.fa-bell{
+       margin-left: -45px;
+   }
+   .left-icons a p.p1{
+    margin-left: -15px;
+}
+    }
+
+    @media screen and (min-width:823px){
+        .left-icons i.fa-calendar{
+            margin-left: -20px;
+        }
+        .left-icons i.fa-bell{
+           margin-left: -45px;
+       }
+
+ }
+ @media screen and (min-width:345px){
+         .buttons-form .b{
+            font-size: 13px;
+            width: 100%;
+         }
+     }
+ 
+ @media only screen and (min-width: 345px) and (max-width:489px) {
+       .navbar .navbar-brand{
+              margin-right:90px ;
+        }
+        .navbar-header .dropdown .dropbtn{
+            margin-left: px;
+        }
+     }
+
+     @media only screen and (min-width:490px) and (max-width:649px) {
+        .navbar .navbar-brand{
+               margin-right:200px ;
+         } 
+          }
+
+          @media only screen and (min-width: 649px) and (max-width:700px) {
+            .navbar .navbar-brand{
+                   margin-right:300px ;
+             }
+              }
+         
+     

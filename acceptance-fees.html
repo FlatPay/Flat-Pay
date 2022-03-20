@@ -11,7 +11,8 @@
 
     <link href="css/styles.css" rel="stylesheet">
     <link href="images/flatpay logo.png" rel="shortcut icon">
-   
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -42,15 +43,20 @@
 </div>
  
 <div class="collapse navbar-collapse " id="nav1">
-  <ul class="nav navbar navbar-nav navbar-center" >
+  <ul class="nav navbar navbar-nav navbar-right" >
       <li><a href="Index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
      
       <li><a href="signup.html" class="sign-up">Sign Up</a></li>
       <li><a href="login.html">Log In</a></li>
 
+    </ul>
+  </div>
+</div>
+</nav>
 
-      <div class="dropdown">
+
+     <!------- <div class="dropdown">
         <button class="dropbtn"> Payment</button>
           <div class="dropdown-content">
               <a href="acceptance-fees.html">Acceptance Fees</a>
@@ -61,16 +67,15 @@
               <a href="#">Course Registration</a>
               <a href="#">Convocation Charges</a>
           </div>
-      </div>
+      </div> ------>
 
       <!-----<li><a href="#">Payment</a></li>---->
       
      
      
-  </ul>
+  
 
-
-  <span class="search">
+  <!---<span class="search">
       <form>
   <input type="text" placeholder="Search FlatPay" name="search">
   <button type="button">
@@ -78,59 +83,102 @@
   </button>
 
 </form>
-</span>
+</span>--->
 
-</div>
-</div>
-</nav>
+
 
 <!--------------------------------------Navbar Setion Ends----------------------->
 
 
 
 
-    <section class="departmental text-center">
-        <h4>PAYMENT</h4>
-        <h4>ACCEPTANCE FEES</h4>
-    </section>
+   
+<section class="topp">  
+ 
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-xs-4 col-lg-2 col-sm-3 left-tab"> 
+                <ul>
+                  <div class="left-icons">
+                  <div class=" dropright">
+                    <a href="#" type=" " class="btn  dropdown-toggle i-6 " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="material-icons">payment</i><br>
+                    <p> Payments</p>
+                    </a>
+                    <div class="dropdown-menu dropright">
+                      <a href="acceptance-fees.html" class=" b-1">  Acceptance Fee <span class="greater">></span></a><br><br>
+                      <a href="school-charges.html" class="text-center ">  School Fee  <span class="greater1">></span></a><br><br>
+                      <a href="hostel-fees.html" class="text-center">   Hostel Fee <span class="greater2">></span></a><br><br>
+                      <a href="faculty.html" class="text-center ">  Faculty Fee <span class="greater3">></span></a><br><br>
+                      <a href="departmental.html" class="text-center">  Department Fee<span class="greater4">></span></a><br><br>
+                      <a href="course.html" class="text-center">  Late Course Registration <span class="greater5">></span> </a><br><br>
+                      <a href="convocation.html" class="text-center ">  Convocation Fee<span class="greater6">></span></a><br><br>
+                      <a href="studentaffair.html" class="text-center">  Student Affairs<span class="greater7">></span> </a><br><br>
+                      <a href="alumni.html" class="text-center">  Alumni <span class="greater8">></span> </a><br><br>
+                      <a href="homecoming.html" class="text-center">  Homecoming  <span class="greater9">></span> </a><br><br>
+                      <a href="library.html" class="text-center">  Library  <span class="greater10">></span> </a><br><br>
+                      <a href="security.html" class="text-center">  Security  <span class="greater11">></span></a><br>
+                    </div>
+                  </div>
+                <br><br>
+                
+                 <a href="#" class="btn" > <i class="material-icons">receipt</i> <br><p>Receipts </p> </a> <br><br><br>
+                 <a href="#" class="btn"> <i class="fa fa-calendar"></i> <br> <p class="p1">Reminders</p></a> <br><br><br>
+                 <a href="#" class="btn"> <i class="fa fa-bell"> </i> <br> <p class="p1">Notifications</p> </a> <br><br><br>
+                 <a href="#" class="btn"><i class="material-icons">settings</i> <br> <p> Settings </p></a> <br>
+             </div>
+                </ul>
+            </div>
 
-    <br><br>
-    <div class="container">
-<form action="/action_page.php">
+              <!------  <h4>PAYMENT</h4>
+        <h4>ACCEPTANCE FEES</h4>--->
+   
+
+              
+    <br><br><br>
+    <div class="col-md-5 col-lg-5 col-sm-7 col-md-offset-2 col-lg-offset-2 col-xs-8">
+
+<h5><b>Acceptance Fee</b></h5> <br><br>
+      <form action="#">
     <div class="form-group">
-      <label for="name">STUDENT NAME</label>
+      <label for="name">Student Name</label>
       <input type="text" class="form-control" id="name">
     </div>
     <div class="form-group">
-      <label for="school">SCHOOL NAME</label>
-      <input type="text" class="form-control" id="school">
+      <label for="course">School Name</label>
+      <input type="text" class="form-control" id="course">
     </div>
     <div class="form-group">
-        <label for="JAMB">JAMB REGISTRATION NUMBER</label>
+        <label for="JAMB">Jamb Registration Number</label>
         <input type="text" class="form-control" id="JAMB">
       </div>
       <div class="form-group">
-        <label for="faculty">FACULTY</label>
-        <input type="text" class="form-control" id="faculty">
+        <label for="account">Account Number</label>
+        <input type="text" class="form-control" id="account">
       </div>
       <div class="form-group">
-        <label for="department">DEPARTMENT</label>
-        <input type="text" class="form-control" id="department">
+        <label for="accname">Account Name</label>
+        <input type="text" class="form-control" id="accname">
       </div>
       <div class="form-group">
-        <label for="acceptance">ACCEPTANCE FEES</label>
-        <input type="text" class="form-control ash-color" id="acceptance">
+        <label for="amount">Amount</label>
+        <input type="number" class="form-control ash-color" id="amount">
       </div>
    
       <br><br><br><br>
       <div class="buttons-form">
-    <button type="submit" class="btn btn-primary blue-color">
-      PROCEED WITH REGISTERED BANK</button><br>
-      <button type=" " class="btn btn-default ash-color">
-        ADD BANK ACCOUNT</button>
+    <button type="submit" class="btn btn-primary blue-color b">
+      Proceed with Registered Bank</button><br>
+      <button type=" " class="btn btn-default ash-color b1">
+        <a href="linkaccount.html">
+        Add Bank Account </a></button>
     </div>
   </form>
 </div>
+</div>
+</div>
+</div>
+</section>
 
 
 </body>
